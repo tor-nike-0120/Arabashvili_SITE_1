@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+	box-sizing: border-box;
+	font-family: Titillium Web;
+	font-weight: 700;
+	color: white;
+}
+
+body{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	background-color: #B797C4;
+}
+
+.site{
+	width: 1440px;
+	position: relative;
+	left: 50%;
+	margin-left: -720px;
+}
+
+/*------------GLOBAL-------------*/
+
+.line{
+	width: 87px;
+	height: 4px;
+	background-color: #000000;
+	opacity: 0.14901960784313725;
+	margin: 0px 0px 0px 676px;
+}
+
+.zagl{
+	font-size: 40px;
+	text-align: center;
+	color: white;
+	margin: 0px 0px 7px 0px;
+	letter-spacing: 5;
+}
+
+.podzagl{	
+	height: 53px;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+	color: white;
+	line-height: 26px;
+	margin: 17px 0px 0px 0px;
+	letter-spacing: 0.8;
+}
+
+.zagl-dark{
+	color:  #3C4761;
+}
+.podzagl-dark{
+	color: #3C4761;
+}
+
+/*------------SHAPKA------------*/
+
+.shapka{
+	height: 94px;
+	width: 1440px;
+	background-color: #87509C;
+	position: fixed;
+	z-index: 999;
+}
+
+.logo_i_menu{ 
+	height: 94px;
+	width: 100%;
+	position: relative;  
+}
+
+.logo_i_menu img { 
+	position: absolute;
+	top:50%;
+	margin-top: -19px;
+	margin-left: 212px;
+}
+
+.ssilki{
+	position: absolute;
+	top:50%;
+	margin-top: -12px;
+	margin-left: 830px;
+	display: inline-block;
+}
+
+.ssilki a{
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0px 40px 0px 0px;
+	padding: 5px 10px 5px 10px;
+	background-color: #87509C;
+}
+
+.ssilki a:hover{
+	border: 0px solid #643A79;
+	border-radius: 5px;
+	background-color: #643A79;
+	transition: background-color 0.1s linear;
+}
+
+
+
+/*------------WELCOME------------*/
+
+.welcome{
+	height: 596px;
+	background-color: #87509C;
+	padding: 58px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.text{
+	text-align: center;
+	margin-top: 177px; 
+	height: 113px;
+}
+
+.text p{
+	font-size: 42.16px;
+	line-height: 48px;
+	color: #F7F3EA;
+}
+
+.knop-welcome{
+	width: 293px;
+	margin: 47px 0px 0px 574px;
+	opacity: 0.9;
+	}
+
+.knop-welcome a{
+	padding: 21px 80px 21px 80px;
+	border: 0px solid black;
+	border-bottom: 5px solid #C86A3F; 
+	border-radius: 5px;
+	background-color: #EB7D4B;
+	font-size: 18px;
+	font-weight: 600;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.knop-welcome:hover{
+	opacity: 1;
+	transition: opacity 0.07s linear;
+}
+
+/*---------------SERVISEC----------------*/
+
+.services{
+	height: 747px;
+	background-color: #17C2A4;
+	margin: 0px 0px 0px 0px;
+	padding-top: 102px;
+	text-align: center;
+}
+
+.services-sect{
+	width: 204px;
+	margin: 55px 38px 0px 38px;
+	text-align: center;
+	display: inline-block;
+}
+
+.services-name{
+	margin: 52px 0px 12px 0px;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+.services-discr{
+	font-size: 16px;
+	font-weight: 300;
+}
+
+/*---------------TEAM----------------*/
+
+.team{
+	height: 914px;
+	background-color: #E7F1F8;
+	margin: 0px 0px 0px 0px;
+	padding-top: 102px;
+	text-align: center;
+}
+
+.people{
+	width: 204px;
+	margin: 55px 38px 0px 38px;
+	text-align: center;
+	display: inline-block;
+}
+
+.name{
+	margin: 31px 0px 0px 0px;
+	font-size: 24px;
+	color: #27283D;
+	text-transform: uppercase;
+}
+
+.prof{
+	font-size: 16px;
+	font-weight: 400;
+	color: #30BAE7;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px; 
+}
+
+.human-discr{
+	font-size: 16px;
+	font-weight: 300;
+	color: #3C4761;
+}
+
+.nets{
+	margin-top: 30px;
+}
+
+.nets img{
+	margin: 0px 5px 0px 5px;
+	fill: blue;
+}
+
+.nets img:hover{
+	margin: -2px 3px -2px 3px;
+	width: 36px;
+	height: 36px;
+}
+
+
+/*---------------SKILLS----------------*/
+
+.skills{
+	height: 655px;
+	background-color: white;
+	margin: 0px 0px 0px 0px;
+	padding-top: 102px;
+	text-align: center;
+}
+
+.skills-sect{
+	margin: 82px 60px 0px 60px;
+	display: inline-block;
+}
+
+.skillname{
+	color: #3C4761;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/*---------------PORTFOLIO----------------*/
+
+.portfolio{
+	height: 1423px;
+	background-color: #FFDD99;
+	margin: 0px 0px 0px 0px;
+	padding-top: 102px;
+	text-align: center;
+}
+
+.portf-category{
+	text-transform: uppercase;
+	margin: 40px 0px 62px 0px;
+}
+
+.portf-category a{
+	background-color: #EBCC8D;
+	border: 0px solid black;
+	border-radius: 3px;
+	font-size: 18px;
+	font-weight: 400;
+	color: #393939;
+	text-decoration: none;
+	padding: 5px 28px 5px 28px;
+	margin: 0px 5px 0px 5px;
+}
+
+.portf-category a:hover{
+	background-color: white;
+	transition: background-color .1s linear;
+}
+
+.works{
+	display: inline-block;
+	margin: 0px 10px 58px 10px;
+
+}
+
+.work-name{
+	margin-top: 25px;
+	color: #393939;
+	font-size: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.knop-portfolio{
+	width: 293px;
+	margin: 0px 0px 0px 574px;
+	opacity: 0.9;
+}
+
+.knop-portfolio a{
+	padding: 21px 55px 21px 55px;
+	border: 0px solid black;
+	border-bottom: 5px solid #13A58B; 
+	border-radius: 5px;
+	background-color: #17C2A4;
+	font-size: 18px;
+	font-weight: 600;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+.knop-portfolio:hover{
+	opacity: 1;
+	transition: opacity .07s linear;
+}
+
+
+/*---------------TESTIMONIALS----------------*/
+
+.testimonials{
+	height: 894px;
+	background-color: #D74680;
+	margin: 0px 0px 0px 0px;
+	padding-top: 102px;
+	text-align: center;
+}
+
+.otziv{
+	width: 500px;
+	height: 261px;
+	padding: 0px 0px 0px 0px;
+	margin: 39px 44px 0px 44px;
+	display: inline-block;
+	text-align: left;
+}
+
+.otziv img{
+	float: left;
+	margin: 0px 48px 0px 0px;
+}
+
+.text-otziv{
+	text-align: left;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	font-size: 22px;
+	font-weight: 400;
+	font-style: italic;
+
+}
+
+.name-otziv{
+	text-transform: uppercase;
+	text-align: left;
+	font-size: 24px;
+	font-weight: 700;
+	padding: 0px 0px 0px 0px;
+	margin: 13px 0px 0px 145px;
+	line-height: 25px;
+}
+
+.name-otziv span{
+	text-align: left;
+	font-size: 18px;
+	font-weight: 400;
+	color: #FFDD99;
+}
+
+/*---------------TOUCH----------------*/
+
+.touch{
+	height: 819px;
+	background-color: #3C5499;
+	margin: 0px 0px 0px 0px;
+	padding-top: 102px;
+	text-align: center;
+}
+
+.forma{
+	margin-top: 48px;
+}
+
+.forma input{
+	color: white;
+	width: 414px;
+	font-size: 18px;
+	font-weight: 400;
+	padding: 14.5px 0px 14.5px 25px;
+	border: 0px solid black;
+	border-radius: 3px;
+	background-color: #273A71;
+	margin: 0px 16px 0px 16px;
+}
+
+.forma textarea{
+	display: block;
+	color: white;
+	width: 860px;
+	height: 200px;
+	font-size: 18px;
+	font-weight: 400;
+	padding: 14.5px 0px 14.5px 25px;
+	border: 0px solid black;
+	border-radius: 3px;
+	background-color: #273A71;
+	margin: 27px 290px 0px 290px;
+}
+
+.forma button{
+	text-transform: uppercase;
+	width: 293px;
+	height: 70px;
+	font-size: 18px;
+	font-weight: 600;
+	border: 0px solid black;
+	border-radius: 3px;
+	border-bottom: 5px solid #289EC4;
+	background-color: #30BAE7;
+	margin-top: 59px;
+	opacity: .9;
+
+}
+
+.forma button:hover{
+	opacity: 1;
+	transition: opacity .1s linear;
+}
+
+/*---------------NIZ----------------*/
+
+.niz{
+	height: 112px;
+	background-color: #344B8E;
+	margin: 0px 0px 0px 0px;
+	position: relative;
+	
+}
+
+.ssilki-niz{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -18px;
+	margin-left: -499px;
+}
+
+.niz a{
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 700;
+	margin: 0px 40px 0px 0px;
+	padding: 5px 10px 5px 10px;
+}
+
+.niz a:hover{
+	transition: color .1s linear;
+}
+
+.facebook:hover{
+	color: #8b9dc3;
+
+}
+
+.twit:hover{
+	color: #00acee; 
+}
+
+.google:hover{
+	color: #db4a39; 
+}
+
+.linkedl:hover{
+	color: #008080; 
+}
+
+.behance:hover{
+	color: #fac100; 
+}
+
+.dribble:hover{
+	color: #ea4c89; 
+}
+
+.github:hover{
+	color: #171515; 
+}
